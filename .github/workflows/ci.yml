@@ -18,5 +18,5 @@ jobs:
         with:
           node-version: 18
 
-      - name: node check
+      - name: Verify Node version
         run: node --version
