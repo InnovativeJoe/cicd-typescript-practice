@@ -36,4 +36,4 @@ jobs:
         run: 'gcloud info'
 
       - name: gcloud build
-        run: gcloud builds submit \ --tag asia-south2-docker.pkg.dev/notely-482705/notely-ar-repo/notely-cli:v1 \.
+        run: gcloud builds submit --tag asia-south2-docker.pkg.dev/notely-482705/notely-ar-repo/notely-cli:v1 .
